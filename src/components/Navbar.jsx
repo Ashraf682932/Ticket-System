@@ -13,7 +13,7 @@ function navbar() {
             <div><ul><li><a href="">Challenging</a></li></ul></div>
             <div><ul><li><a href="">Blog </a></li></ul></div>
             <div><ul><li><a href="">Download</a></li></ul></div>
-            <div><ul><li><a href="">Contact</a></li></ul></div>
+            <div><ul><li><a href="">Contacts</a></li></ul></div>
         </div>
         <div className=' p-2 text-white text-sm rounded-2xl justify-center items-center  bg-[#422AD5]'><button>New Ticket</button></div>
        </div>
