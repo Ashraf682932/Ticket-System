@@ -10,12 +10,16 @@ const TicketSection = ({ setInProgress , setResolved}) => {
 
      const [tasks,setTasks] = useState([]) ;
 
-     useEffect (() => {
-        fetch("/ticket.json")
-        .then ( res => res.json())
-        .then ( data =>setTickets(data)); 
-        
-     },[]) ;
+
+    useEffect(() => {
+  fetch(`${import.meta.env.BASE_URL}ticket.json`)
+    .then(res => {
+      if (!res.ok) throw new Error("Network response was not ok");
+      return res.json();
+    })
+    .then(data => setTickets(data))
+    .catch(err => console.error("Fetch error:", err));
+}, []);
 
      const handleAddTask = (ticket) => {
 
