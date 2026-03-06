@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer cannot login to account",
+    "customer": "John Smith",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "11/15/2024"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failed - Card Declined",
+    "description": "Payment keeps failing",
+    "customer": "Sarah Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "11/16/2024"
+  },
+  {
+    "id": 1003,
+    "title": "Unable to Download Invoice",
+    "description": "Invoice cannot be downloaded",
+    "customer": "Michael Brown",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "11/17/2024"
+  },
+  {
+    "id": 1004,
+    "title": "Incorrect Billing Address",
+    "description": "Billing address wrong",
+    "customer": "Emily Davis",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "11/18/2024"
+  },
+  {
+    "id": 1005,
+    "title": "App Crash on Launch",
+    "description": "App crashes immediately",
+    "customer": "David Wilson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "11/19/2024"
+  },
+  {
+    "id": 1006,
+    "title": "Refund Not Processed",
+    "description": "Refund not received",
+    "customer": "Sophia Taylor",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "11/20/2024"
+  },
+  {
+    "id": 1007,
+    "title": "Two-Factor Authentication Issue",
+    "description": "Not receiving 2FA code",
+    "customer": "James Anderson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "11/21/2024"
+  },
+  {
+    "id": 1008,
+    "title": "Unable to Update Profile Picture",
+    "description": "Upload failed",
+    "customer": "Olivia Martinez",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "11/22/2024"
+  },
+  {
+    "id": 1009,
+    "title": "Subscription Auto-Renewal",
+    "description": "Auto renewal not working",
+    "customer": "Liam Thomas",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "11/23/2024"
+  },
+  {
+    "id": 1010,
+    "title": "Missing Order Confirmation Email",
+    "description": "Email not received",
+    "customer": "Isabella Garcia",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "11/24/2024"
+  }
+]
