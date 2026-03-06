@@ -7,22 +7,16 @@
   "version": "0.0.0",
   
   "type": "module",
-    "homepage": "https://ashraf682932.github.io/Ticket-System",
-  "scripts": {
   
-    
+  "homepage": "https://ashraf682932.github.io/Ticket-System",
+  
+"scripts": {
   "dev": "vite",
-  
-    
   "build": "vite build",
-  
-    
-  "lint": "eslint .",
-  
-    
-  "preview": "vite preview"
-  
-  },
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+} ,
   
   "dependencies": {
   
