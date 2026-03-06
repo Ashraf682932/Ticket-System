@@ -1,0 +1,20 @@
+1 . jsx holo js er vitore html er moto syntax eta react e use kora hoy 
+2 . props bahire theke ashe eta change kora jay na , state components er vitore thake ar eta change kora jay 
+3 . useState holo react hook ja functional components e state variable jok kore ar update korar function de 
+4 . state k common parent e rekhe props diye children der kace pathano 
+5 . jsx e camelcase e  event likhe function pass kora hoy  
+  "scripts": {
+  
+    
+  "dev": "vite",
+  
+    
+  "build": "vite build",
+  
+    
+  "lint": "eslint .",
+  
+    
+  "preview": "vite preview"
+  
+  },
