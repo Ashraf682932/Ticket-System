@@ -5,6 +5,7 @@ import Navbar from './components/navbar'
 import Hero from './components/Hero'
 import TicketSection from './components/TicketSection'
 import { ToastContainer } from 'react-toastify'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -15,15 +16,16 @@ function App() {
   return (
     <>
     <Navbar/>
-    <Hero/>
-          <h2>In Progress: {inProgress}</h2>
-      
-          <h2>Resolved: {resolved}</h2>
+       <Hero
+        inProgress={inProgress}
+        resolved={resolved}
+        />
       <TicketSection
         setInProgress={setInProgress}
         setResolved={setResolved}
       />
             <ToastContainer />
+           <Footer />
     </>
   )
 }
