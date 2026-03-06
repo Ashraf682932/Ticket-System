@@ -3,6 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
    <footer className="footer sm:footer-horizontal bg-black text-white p-10">
+  
   <aside>
     
   
@@ -33,7 +34,9 @@ const Footer = () => {
     <a className="link link-hover">Terms & Condition </a>
     <a className="link link-hover">Join us</a>
   </nav>
+
 </footer>
+
   )
 }
 
